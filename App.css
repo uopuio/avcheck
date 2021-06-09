@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: rgb(250, 215, 235);
+}
+
+.container{
+  border-radius: 10px;
+  text-align: center;
+  background-color: antiquewhite;
+  display: block;
+  width: 400px;
+  height: 200px;
+  margin:0 auto;
+}
+
+div > h1 {
+  color:rgb(132, 0, 255);
+}
+
+.quiz{
+  background-color: pink;
+  width: 180px;
+  margin:auto ;
+}
+
+#ans{
+  list-style-type:none;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+#ans>li{
+  margin-right:40px;
+  background-color: rgb(192, 82, 226);
+  color: rgb(241, 242, 243);
+  width: 120px;
+  user-select: none;
+  cursor: pointer;
+}
+
+#check{
+  background-color: rgb(192, 82, 226);
+  margin: auto;
+  color: rgb(255, 255, 255);
+  width: 160px;
+}
